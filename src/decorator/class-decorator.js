@@ -1,10 +1,13 @@
+/**
+ * 类的装饰
+ */
+function testable(targent) {
+  targent.isTestable = true
+}
+
 @testable
 class MyTestClass {
 
-}
-
-function testable(targent) {
-  targent.isTestable = true
 }
 
 console.log(MyTestableClass.isTestable)

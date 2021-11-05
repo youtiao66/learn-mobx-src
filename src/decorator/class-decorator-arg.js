@@ -1,3 +1,6 @@
+/**
+ * 给装饰器添加参数
+ */
 function testable(isTestable) {
   return function(target) {
     target.isTestable = isTestable
