@@ -1,6 +1,7 @@
 {
   "scripts": {
     "build": "babel src -d dist",
+    "property": "node ./src/property/index.js",
     "decorator": "node ./dist/decorator/index.js",
     "decorator-src": "node ./src/decorator/index.js"
   },
