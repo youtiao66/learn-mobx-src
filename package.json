@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "babel src -d dist",
+    "decorator": "node ./dist/decorator/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-proposal-decorators": "^7.16.0"
+  }
+}
