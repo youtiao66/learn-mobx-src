@@ -7,7 +7,7 @@
  * => executed 2
  * => executed 1
  */
-function dec(id) {
+ function dec(id) {
   console.log('evaluated', id)
   return (target, name, descripter) => {
     console.log('executed', id)
