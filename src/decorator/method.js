@@ -4,7 +4,7 @@ function readonlyFunc(target, name, descriptor) {
 }
 
 class Person {
-  // @readonlyFunc
+  @readonlyFunc
   name() {
     return `firstname lastname`
   }
