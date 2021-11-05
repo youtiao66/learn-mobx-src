@@ -1,7 +1,8 @@
 {
   "scripts": {
     "build": "babel src -d dist",
-    "decorator": "node ./dist/decorator/index.js"
+    "decorator": "node ./dist/decorator/index.js",
+    "decorator-src": "node ./src/decorator/index.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
